@@ -7,6 +7,7 @@ import { Navigation, Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
+import Footer from '../Footer';
 
 const filters = ['All', 'Asia', 'Europe'];
 
@@ -49,16 +50,15 @@ const CountryPage = () => {
       <h2 className="welcome-heading">WELCOME</h2>
 
       {/* Hero Section */}
-      <Row className="mb-4" >
-        <Col md={9} >
+      <Row className="mb-4 g-3 " >
+        <Col md={9} className="side-frame" >
           <Swiper pagination={true} modules={[Pagination]} className="mySwiper">
         <SwiperSlide>Slide 1</SwiperSlide>
         <SwiperSlide>Slide 2</SwiperSlide>
         <SwiperSlide>Slide 3</SwiperSlide>
       </Swiper>
         </Col>
-
-        <Col md={3} className="side-frame">
+        <Col md={3} className="side-frame" >
           <div className="frame-placeholder">Frame</div>
         </Col>
       </Row>
@@ -89,16 +89,7 @@ const CountryPage = () => {
       )}
 
       {/* Footer */}
-      <footer className="footer text-center">
-        <div className="social-icons my-3">
-          <i className="bi bi-facebook"></i>
-          <i className="bi bi-twitter"></i>
-          <i className="bi bi-linkedin"></i>
-          <i className="bi bi-youtube"></i>
-        </div>
-        <p>Example@email.com</p>
-        <p>Copyright © 2020 Name. All rights reserved.</p>
-      </footer>
+     <Footer/>
     </Container>
   );
 };

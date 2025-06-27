@@ -8,6 +8,7 @@ import {
 } from 'react-bootstrap';
 import { FaGoogle, FaFacebookF, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
 import './Login.css';
+import loginimg from "../../assets/login.png"
 
 const Login = () => {
   return (
@@ -51,7 +52,7 @@ const Login = () => {
         {/* Right Side (Image/Illustration) */}
         <Col md={6} className="d-none d-md-flex align-items-center justify-content-center">
           <img
-            src="/key-walk-illustration.png" // replace with your image path
+            src={loginimg} // replace with your image path
             alt="login-illustration"
             className="img-fluid login-img"
           />
