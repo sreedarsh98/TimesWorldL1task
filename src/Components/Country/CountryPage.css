@@ -1,0 +1,209 @@
+.countries-page {
+  padding-top: 20px;
+}
+
+.logo {
+  font-weight: bold;
+}
+
+.filter-btn {
+  margin-left: 10px;
+  text-decoration: none;
+  color: #000;
+}
+
+.filter-btn.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.welcome-title {
+  margin: 30px 0 20px;
+  font-weight: bold;
+}
+
+.welcome-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 40px 0;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.welcome-heading::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 40%;
+  height: 2px;
+  background-color: #333;
+}
+
+.welcome-heading::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 40%;
+  height: 2px;
+  background-color: #333;
+}
+
+
+.carousel-box {
+  background-color: #f5f5f5;
+  border: 1px solid #999;
+  min-height: 300px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-placeholder {
+  font-weight: bold;
+  color: #999;
+}
+
+.dots {
+  position: absolute;
+  bottom: 15px;
+  width: 100%;
+  text-align: center;
+}
+
+.dot {
+  margin: 0 5px;
+}
+
+.side-frame {
+  background-color: #f5f5f5;
+  border: 1px solid #999;
+  min-height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.frame-placeholder {
+  font-weight: bold;
+  color: #999;
+}
+
+.country-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid #ccc;
+}
+
+.flag-placeholder {
+  width: 60px;
+  height: 60px;
+  background-color: #ddd;
+  margin: 10px;
+}
+
+.load-more-btn {
+  background-color: #222;
+  border: none;
+  padding: 10px 20px;
+  color: #fff;
+}
+
+.footer {
+  margin-top: 40px;
+  padding: 20px 0;
+  border-top: 1px solid #eee;
+}
+
+.social-icons i {
+  margin: 0 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* Swiper inside carousel-box */
+.carousel-box {
+  background-color: #f5f5f5;
+  border: 1px solid #999;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.carousel-slide {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 24px;
+  color: #777;
+}
+
+/* Arrows and Dots group */
+.carousel-navigation-group {
+  position: absolute;
+  bottom: 15px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+/* Custom arrows */
+.swiper-prev-custom,
+.swiper-next-custom {
+  font-size: 16px;
+  cursor: pointer;
+  user-select: none;
+  font-weight: bold;
+  color: #000;
+}
+
+/* Custom pagination dots */
+.swiper-pagination-custom {
+  display: flex;
+  gap: 6px;
+}
+
+.swiper-pagination-custom .swiper-pagination-bullet {
+  width: 8px;
+  height: 8px;
+  background-color: #f8ebf8;
+  border-radius: 50%;
+  opacity: 1;
+}
+
+.swiper-pagination-custom .swiper-pagination-bullet-active {
+  background-color: #111;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

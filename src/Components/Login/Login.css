@@ -1,0 +1,73 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.login-container {
+  max-width: 1000px;
+  margin: auto;
+}
+.sign-left {
+  padding: 50px;
+}
+
+.head-sign {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.new-user {
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+
+.create-link {
+  color: #377dff;
+  cursor: pointer;
+}
+
+.input-box {
+  
+  border-radius: 0;
+  border: 1px solid #000;
+}
+
+.submit-btn {
+  border-radius: 0;
+}
+
+.or-line {
+  position: relative;
+  text-align: center;
+}
+
+.or-line hr {
+  margin-top: 10px;
+}
+
+.or-text {
+  background: white;
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0 10px;
+  font-size: 12px;
+}
+
+.social-icons .social-circle {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.login-img {
+  max-height: 400px;
+}
